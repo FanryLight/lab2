@@ -1,0 +1,7 @@
+api_user:
+    type:     rest
+    resource: AppBundle\Controller\UserController
+
+api_document:
+    type:     rest
+    resource: AppBundle\Controller\DocumentController

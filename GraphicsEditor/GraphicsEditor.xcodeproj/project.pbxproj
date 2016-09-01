@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3948C54E1D71E914006AEF0F /* DRGAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3948C54D1D71E914006AEF0F /* DRGAccountManager.m */; };
+		39575B341D744F3C00EC841B /* delete.ico in Resources */ = {isa = PBXBuildFile; fileRef = 39575B321D744F3C00EC841B /* delete.ico */; };
+		39575B351D744F3C00EC841B /* download.ico in Resources */ = {isa = PBXBuildFile; fileRef = 39575B331D744F3C00EC841B /* download.ico */; };
+		39575B381D7463DD00EC841B /* DRGDocumentPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 39575B371D7463DD00EC841B /* DRGDocumentPreview.m */; };
+		39575B401D74855A00EC841B /* upload.ico in Resources */ = {isa = PBXBuildFile; fileRef = 39575B3F1D74855A00EC841B /* upload.ico */; };
+		39575B451D749FF800EC841B /* cursor.ico in Resources */ = {isa = PBXBuildFile; fileRef = 39575B411D749FF800EC841B /* cursor.ico */; };
+		39575B461D749FF800EC841B /* ellipse.ico in Resources */ = {isa = PBXBuildFile; fileRef = 39575B421D749FF800EC841B /* ellipse.ico */; };
+		39575B471D749FF800EC841B /* line.ico in Resources */ = {isa = PBXBuildFile; fileRef = 39575B431D749FF800EC841B /* line.ico */; };
+		39575B481D749FF800EC841B /* rectangle.ico in Resources */ = {isa = PBXBuildFile; fileRef = 39575B441D749FF800EC841B /* rectangle.ico */; };
+		39575B4B1D7578D600EC841B /* DRGConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39575B4A1D7578D600EC841B /* DRGConnectionManager.m */; };
+		39575B4E1D7578E600EC841B /* DRGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39575B4D1D7578E600EC841B /* DRGImage.m */; };
+		397FBAA21D6DE31000C5ACC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 397FBAA11D6DE31000C5ACC4 /* AppDelegate.m */; };
+		397FBAA51D6DE31000C5ACC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 397FBAA41D6DE31000C5ACC4 /* main.m */; };
+		397FBAA81D6DE31000C5ACC4 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 397FBAA71D6DE31000C5ACC4 /* Document.m */; };
+		397FBAAB1D6DE31000C5ACC4 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397FBAA91D6DE31000C5ACC4 /* Document.xib */; };
+		397FBAAD1D6DE31000C5ACC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397FBAAC1D6DE31000C5ACC4 /* Assets.xcassets */; };
+		397FBAB01D6DE31100C5ACC4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397FBAAE1D6DE31100C5ACC4 /* MainMenu.xib */; };
+		397FBABF1D6DE44400C5ACC4 /* Chibi.png in Resources */ = {isa = PBXBuildFile; fileRef = 397FBABC1D6DE44400C5ACC4 /* Chibi.png */; };
+		397FBAC01D6DE44400C5ACC4 /* Hamtaro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397FBABD1D6DE44400C5ACC4 /* Hamtaro.jpg */; };
+		397FBAC11D6DE44400C5ACC4 /* Mouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 397FBABE1D6DE44400C5ACC4 /* Mouse.jpg */; };
+		397FBAC41D6DE4A700C5ACC4 /* DRGCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 397FBAC31D6DE4A700C5ACC4 /* DRGCanvasView.m */; };
+		397FBAC91D6DE58700C5ACC4 /* DRGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 397FBAC81D6DE58700C5ACC4 /* DRGViewModel.m */; };
+		397FBACE1D6DE68500C5ACC4 /* DRGFigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 397FBACD1D6DE68500C5ACC4 /* DRGFigure.m */; };
+		3982C7351D6F4C5200E4CDAF /* Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 3982C7341D6F4C5200E4CDAF /* Apple.png */; };
+		3982C7391D70443200E4CDAF /* DRGPasteboardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3982C7381D70443200E4CDAF /* DRGPasteboardItem.m */; };
+		3982C73C1D706F9000E4CDAF /* DRGNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3982C73B1D706F9000E4CDAF /* DRGNumberFormatter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3948C54C1D71E914006AEF0F /* DRGAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRGAccountManager.h; path = Controller/DRGAccountManager.h; sourceTree = "<group>"; };
+		3948C54D1D71E914006AEF0F /* DRGAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRGAccountManager.m; path = Controller/DRGAccountManager.m; sourceTree = "<group>"; };
+		39575B321D744F3C00EC841B /* delete.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = delete.ico; path = Resources/Icons/delete.ico; sourceTree = "<group>"; };
+		39575B331D744F3C00EC841B /* download.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = download.ico; path = Resources/Icons/download.ico; sourceTree = "<group>"; };
+		39575B361D7463DD00EC841B /* DRGDocumentPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRGDocumentPreview.h; path = Model/DRGDocumentPreview.h; sourceTree = "<group>"; };
+		39575B371D7463DD00EC841B /* DRGDocumentPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRGDocumentPreview.m; path = Model/DRGDocumentPreview.m; sourceTree = "<group>"; };
+		39575B3F1D74855A00EC841B /* upload.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = upload.ico; path = Resources/Icons/upload.ico; sourceTree = "<group>"; };
+		39575B411D749FF800EC841B /* cursor.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = cursor.ico; path = Resources/Icons/cursor.ico; sourceTree = "<group>"; };
+		39575B421D749FF800EC841B /* ellipse.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = ellipse.ico; path = Resources/Icons/ellipse.ico; sourceTree = "<group>"; };
+		39575B431D749FF800EC841B /* line.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = line.ico; path = Resources/Icons/line.ico; sourceTree = "<group>"; };
+		39575B441D749FF800EC841B /* rectangle.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = rectangle.ico; path = Resources/Icons/rectangle.ico; sourceTree = "<group>"; };
+		39575B491D7578D600EC841B /* DRGConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRGConnectionManager.h; path = SupportingFiles/DRGConnectionManager.h; sourceTree = "<group>"; };
+		39575B4A1D7578D600EC841B /* DRGConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRGConnectionManager.m; path = SupportingFiles/DRGConnectionManager.m; sourceTree = "<group>"; };
+		39575B4C1D7578E600EC841B /* DRGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRGImage.h; path = ViewModel/DRGImage.h; sourceTree = "<group>"; };
+		39575B4D1D7578E600EC841B /* DRGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRGImage.m; path = ViewModel/DRGImage.m; sourceTree = "<group>"; };
+		397FBA9D1D6DE31000C5ACC4 /* GraphicsEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphicsEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		397FBAA01D6DE31000C5ACC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		397FBAA11D6DE31000C5ACC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		397FBAA41D6DE31000C5ACC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		397FBAA61D6DE31000C5ACC4 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		397FBAA71D6DE31000C5ACC4 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		397FBAAA1D6DE31000C5ACC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		397FBAAC1D6DE31000C5ACC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		397FBAAF1D6DE31100C5ACC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		397FBAB11D6DE31100C5ACC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		397FBABC1D6DE44400C5ACC4 /* Chibi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chibi.png; path = Resources/StandartLibrary/Chibi.png; sourceTree = "<group>"; };
+		397FBABD1D6DE44400C5ACC4 /* Hamtaro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Hamtaro.jpg; path = Resources/StandartLibrary/Hamtaro.jpg; sourceTree = "<group>"; };
+		397FBABE1D6DE44400C5ACC4 /* Mouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Mouse.jpg; path = Resources/StandartLibrary/Mouse.jpg; sourceTree = "<group>"; };
+		397FBAC21D6DE49A00C5ACC4 /* DRGCanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DRGCanvasView.h; path = View/DRGCanvasView.h; sourceTree = "<group>"; };
+		397FBAC31D6DE4A700C5ACC4 /* DRGCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRGCanvasView.m; path = View/DRGCanvasView.m; sourceTree = "<group>"; };
+		397FBAC81D6DE58700C5ACC4 /* DRGViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRGViewModel.m; path = ViewModel/DRGViewModel.m; sourceTree = "<group>"; };
+		397FBACA1D6DE59300C5ACC4 /* DRGViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DRGViewModel.h; path = ViewModel/DRGViewModel.h; sourceTree = "<group>"; };
+		397FBACC1D6DE68500C5ACC4 /* DRGFigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRGFigure.h; path = Model/DRGFigure.h; sourceTree = "<group>"; };
+		397FBACD1D6DE68500C5ACC4 /* DRGFigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRGFigure.m; path = Model/DRGFigure.m; sourceTree = "<group>"; };
+		3982C7341D6F4C5200E4CDAF /* Apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Apple.png; path = Resources/StandartLibrary/Apple.png; sourceTree = "<group>"; };
+		3982C7371D70443200E4CDAF /* DRGPasteboardItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRGPasteboardItem.h; path = SupportingFiles/DRGPasteboardItem.h; sourceTree = "<group>"; };
+		3982C7381D70443200E4CDAF /* DRGPasteboardItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRGPasteboardItem.m; path = SupportingFiles/DRGPasteboardItem.m; sourceTree = "<group>"; };
+		3982C73A1D706F9000E4CDAF /* DRGNumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DRGNumberFormatter.h; path = SupportingFiles/DRGNumberFormatter.h; sourceTree = "<group>"; };
+		3982C73B1D706F9000E4CDAF /* DRGNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DRGNumberFormatter.m; path = SupportingFiles/DRGNumberFormatter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		397FBA9A1D6DE31000C5ACC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3948C5481D71E8A6006AEF0F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3948C54C1D71E914006AEF0F /* DRGAccountManager.h */,
+				3948C54D1D71E914006AEF0F /* DRGAccountManager.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		39575B311D744F3000EC841B /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				39575B411D749FF800EC841B /* cursor.ico */,
+				39575B421D749FF800EC841B /* ellipse.ico */,
+				39575B431D749FF800EC841B /* line.ico */,
+				39575B441D749FF800EC841B /* rectangle.ico */,
+				39575B3F1D74855A00EC841B /* upload.ico */,
+				39575B321D744F3C00EC841B /* delete.ico */,
+				39575B331D744F3C00EC841B /* download.ico */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		397FBA941D6DE31000C5ACC4 = {
+			isa = PBXGroup;
+			children = (
+				397FBA9F1D6DE31000C5ACC4 /* GraphicsEditor */,
+				397FBA9E1D6DE31000C5ACC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		397FBA9E1D6DE31000C5ACC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				397FBA9D1D6DE31000C5ACC4 /* GraphicsEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		397FBA9F1D6DE31000C5ACC4 /* GraphicsEditor */ = {
+			isa = PBXGroup;
+			children = (
+				3948C5481D71E8A6006AEF0F /* Controller */,
+				397FBABA1D6DE42100C5ACC4 /* Resources */,
+				397FBAB91D6DE3FC00C5ACC4 /* ViewModel */,
+				397FBAB81D6DE3F800C5ACC4 /* View */,
+				397FBAB71D6DE3F100C5ACC4 /* Model */,
+				397FBAA01D6DE31000C5ACC4 /* AppDelegate.h */,
+				397FBAA11D6DE31000C5ACC4 /* AppDelegate.m */,
+				397FBAA61D6DE31000C5ACC4 /* Document.h */,
+				397FBAA71D6DE31000C5ACC4 /* Document.m */,
+				397FBAA91D6DE31000C5ACC4 /* Document.xib */,
+				397FBAAC1D6DE31000C5ACC4 /* Assets.xcassets */,
+				397FBAAE1D6DE31100C5ACC4 /* MainMenu.xib */,
+				397FBAB11D6DE31100C5ACC4 /* Info.plist */,
+				397FBAA31D6DE31000C5ACC4 /* Supporting Files */,
+			);
+			path = GraphicsEditor;
+			sourceTree = "<group>";
+		};
+		397FBAA31D6DE31000C5ACC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39575B491D7578D600EC841B /* DRGConnectionManager.h */,
+				39575B4A1D7578D600EC841B /* DRGConnectionManager.m */,
+				3982C73A1D706F9000E4CDAF /* DRGNumberFormatter.h */,
+				3982C73B1D706F9000E4CDAF /* DRGNumberFormatter.m */,
+				3982C7371D70443200E4CDAF /* DRGPasteboardItem.h */,
+				3982C7381D70443200E4CDAF /* DRGPasteboardItem.m */,
+				397FBAA41D6DE31000C5ACC4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		397FBAB71D6DE3F100C5ACC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				397FBACC1D6DE68500C5ACC4 /* DRGFigure.h */,
+				397FBACD1D6DE68500C5ACC4 /* DRGFigure.m */,
+				39575B361D7463DD00EC841B /* DRGDocumentPreview.h */,
+				39575B371D7463DD00EC841B /* DRGDocumentPreview.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		397FBAB81D6DE3F800C5ACC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				397FBAC21D6DE49A00C5ACC4 /* DRGCanvasView.h */,
+				397FBAC31D6DE4A700C5ACC4 /* DRGCanvasView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		397FBAB91D6DE3FC00C5ACC4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				39575B4C1D7578E600EC841B /* DRGImage.h */,
+				39575B4D1D7578E600EC841B /* DRGImage.m */,
+				397FBACA1D6DE59300C5ACC4 /* DRGViewModel.h */,
+				397FBAC81D6DE58700C5ACC4 /* DRGViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		397FBABA1D6DE42100C5ACC4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				39575B311D744F3000EC841B /* Icons */,
+				397FBABB1D6DE42C00C5ACC4 /* StandartLibrary */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		397FBABB1D6DE42C00C5ACC4 /* StandartLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				3982C7341D6F4C5200E4CDAF /* Apple.png */,
+				397FBABC1D6DE44400C5ACC4 /* Chibi.png */,
+				397FBABD1D6DE44400C5ACC4 /* Hamtaro.jpg */,
+				397FBABE1D6DE44400C5ACC4 /* Mouse.jpg */,
+			);
+			name = StandartLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		397FBA9C1D6DE31000C5ACC4 /* GraphicsEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 397FBAB41D6DE31100C5ACC4 /* Build configuration list for PBXNativeTarget "GraphicsEditor" */;
+			buildPhases = (
+				397FBA991D6DE31000C5ACC4 /* Sources */,
+				397FBA9A1D6DE31000C5ACC4 /* Frameworks */,
+				397FBA9B1D6DE31000C5ACC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphicsEditor;
+			productName = GraphicsEditor;
+			productReference = 397FBA9D1D6DE31000C5ACC4 /* GraphicsEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		397FBA951D6DE31000C5ACC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Светлана Медоева";
+				TargetAttributes = {
+					397FBA9C1D6DE31000C5ACC4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 397FBA981D6DE31000C5ACC4 /* Build configuration list for PBXProject "GraphicsEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 397FBA941D6DE31000C5ACC4;
+			productRefGroup = 397FBA9E1D6DE31000C5ACC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				397FBA9C1D6DE31000C5ACC4 /* GraphicsEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		397FBA9B1D6DE31000C5ACC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397FBAAD1D6DE31000C5ACC4 /* Assets.xcassets in Resources */,
+				3982C7351D6F4C5200E4CDAF /* Apple.png in Resources */,
+				39575B351D744F3C00EC841B /* download.ico in Resources */,
+				397FBAAB1D6DE31000C5ACC4 /* Document.xib in Resources */,
+				397FBAC01D6DE44400C5ACC4 /* Hamtaro.jpg in Resources */,
+				39575B471D749FF800EC841B /* line.ico in Resources */,
+				397FBAC11D6DE44400C5ACC4 /* Mouse.jpg in Resources */,
+				39575B461D749FF800EC841B /* ellipse.ico in Resources */,
+				397FBAB01D6DE31100C5ACC4 /* MainMenu.xib in Resources */,
+				39575B341D744F3C00EC841B /* delete.ico in Resources */,
+				39575B401D74855A00EC841B /* upload.ico in Resources */,
+				39575B481D749FF800EC841B /* rectangle.ico in Resources */,
+				397FBABF1D6DE44400C5ACC4 /* Chibi.png in Resources */,
+				39575B451D749FF800EC841B /* cursor.ico in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		397FBA991D6DE31000C5ACC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397FBAC91D6DE58700C5ACC4 /* DRGViewModel.m in Sources */,
+				3948C54E1D71E914006AEF0F /* DRGAccountManager.m in Sources */,
+				3982C73C1D706F9000E4CDAF /* DRGNumberFormatter.m in Sources */,
+				397FBAA81D6DE31000C5ACC4 /* Document.m in Sources */,
+				397FBAA51D6DE31000C5ACC4 /* main.m in Sources */,
+				39575B4B1D7578D600EC841B /* DRGConnectionManager.m in Sources */,
+				397FBACE1D6DE68500C5ACC4 /* DRGFigure.m in Sources */,
+				397FBAC41D6DE4A700C5ACC4 /* DRGCanvasView.m in Sources */,
+				39575B381D7463DD00EC841B /* DRGDocumentPreview.m in Sources */,
+				39575B4E1D7578E600EC841B /* DRGImage.m in Sources */,
+				397FBAA21D6DE31000C5ACC4 /* AppDelegate.m in Sources */,
+				3982C7391D70443200E4CDAF /* DRGPasteboardItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		397FBAA91D6DE31000C5ACC4 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				397FBAAA1D6DE31000C5ACC4 /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		397FBAAE1D6DE31100C5ACC4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				397FBAAF1D6DE31100C5ACC4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		397FBAB21D6DE31100C5ACC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		397FBAB31D6DE31100C5ACC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		397FBAB51D6DE31100C5ACC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GraphicsEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dr.GraphicsEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		397FBAB61D6DE31100C5ACC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GraphicsEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dr.GraphicsEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		397FBA981D6DE31000C5ACC4 /* Build configuration list for PBXProject "GraphicsEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397FBAB21D6DE31100C5ACC4 /* Debug */,
+				397FBAB31D6DE31100C5ACC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		397FBAB41D6DE31100C5ACC4 /* Build configuration list for PBXNativeTarget "GraphicsEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397FBAB51D6DE31100C5ACC4 /* Debug */,
+				397FBAB61D6DE31100C5ACC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 397FBA951D6DE31000C5ACC4 /* Project object */;
+}
